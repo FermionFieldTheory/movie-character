@@ -1,6 +1,8 @@
 body{
 	margin: 0;
-	
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 18px
+	line-height: 30px;
 }
 
 header{
@@ -19,14 +21,14 @@ p, ol, ul{
 }
 
 header h1{
-	color: darkred;
+	color: #C04000;
 	font-size: 50px;
 }
 
 header img{
 	border-radius: 170px;
     width: 300px;
-    border: 20px solid darkred;
+    border: 20px solid #C04000;
 }
 
 main{
@@ -37,4 +39,17 @@ main{
 
 main img{
 	max-width: 100%;
+}
+
+h2{
+	font-size: 28px;
+	color: #C04000;
+}
+
+a{
+	color: #C04000;
+}
+a:hover{
+	color: white;
+	background-color: ;
 }
